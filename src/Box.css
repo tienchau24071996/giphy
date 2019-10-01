@@ -1,0 +1,17 @@
+.box{
+    width:100px;
+    height:100px;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color:#e9ebee;
+    margin:10px;
+    color:rgb(71, 69, 69);
+    font-weight: 600;
+    justify-content: center;
+}
+
+.para{
+    margin: 0;
+}
