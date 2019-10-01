@@ -15,7 +15,7 @@ export default class App extends Component {
 
   componentDidMount() {
     fetch(
-      `http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=W5L21utoO0PSgs5Pub7pu2hnj5nH1d8z&limit=${this.state.limit}`
+      `https://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=W5L21utoO0PSgs5Pub7pu2hnj5nH1d8z&limit=${this.state.limit}`
     )   
       .then(res => res.json())
       .then(result => {
@@ -28,7 +28,7 @@ export default class App extends Component {
 
   fetchData = () => {
     fetch(
-      `http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=W5L21utoO0PSgs5Pub7pu2hnj5nH1d8z&limit=
+      `https://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=W5L21utoO0PSgs5Pub7pu2hnj5nH1d8z&limit=
       ${this.state.limit}&offset=${this.state.offset}`
     )
     .then(res => res.json())
